@@ -6,4 +6,10 @@ from department import Department
 
 import ipdb
 
+Department.drop_table()
+Department.create_table()
+
+d1 = Department("Engineering", "New York")
+d1.save()
+
 ipdb.set_trace()
