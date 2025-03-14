@@ -55,4 +55,3 @@ class Department:
             CURSOR.execute('DELETE FROM departments WHERE id = ?', (self.id,))
             CONN.commit()
             self.id = None  # Reset the ID since it's deleted
-t
